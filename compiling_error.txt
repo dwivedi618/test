@@ -1,0 +1,6 @@
+C:\Users\shivam\Desktop\angular\trex\compiler.c: In function 'main':
+C:\Users\shivam\Desktop\angular\trex\compiler.c:33:9: warning: comparison between pointer and integer
+    if(ch==" "){
+         ^~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file C:\Users\shivam\AppData\Local\Temp\compiler.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
