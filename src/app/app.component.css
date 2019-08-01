@@ -5,3 +5,13 @@ footer{
  p,h1,h2,h3,h4,footer,li,ul,a{
   color: #2e2e2e !important;
 }
+.nav-container{
+  position:relative !important;
+  top: 0;
+  z-index: 1000;
+}
+.router-outlet{
+  position: relative;
+  margin-top: 1rem;
+
+}

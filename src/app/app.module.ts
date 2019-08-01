@@ -1,18 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { NgModule } from '@angular/core';
 import {  Routes, RouterModule } from '@angular/router';
 
 import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { IntroSectionComponent } from './intro-section/intro-section.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BlogComponent } from './blog/blog.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes:Routes = [
   { path: '' , component : HomeComponent },
@@ -33,14 +37,17 @@ const appRoutes:Routes = [
     BlogComponent,
     AboutMeComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
+    FlexLayoutModule,
     RouterModule.forRoot(appRoutes)
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
