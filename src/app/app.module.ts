@@ -45,7 +45,7 @@ const appRoutes:Routes = [
     BrowserAnimationsModule,
     MatCardModule,
     FlexLayoutModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })
   ],
 
   providers: [],
