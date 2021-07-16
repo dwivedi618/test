@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import {  Routes, RouterModule } from '@angular/router';
 
 import {MatCardModule} from '@angular/material/card';
-import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 
 import { AppComponent } from './app.component';
@@ -44,7 +44,7 @@ const appRoutes:Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    FlexLayoutModule,
+  
     RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' })
   ],
 
